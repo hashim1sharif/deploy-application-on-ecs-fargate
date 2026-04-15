@@ -1,5 +1,25 @@
+# Python
 .venv/
 __pycache__/
 *.pyc
+
+# Env files
 .env
-.pytest_cache/
+.env.*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.tfvars
+terraform.tfvars.json
+
+# OS / editor
+.vscode/
+.idea/
+.DS_Store
