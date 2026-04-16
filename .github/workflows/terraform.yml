@@ -53,8 +53,15 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
 
+      - name: Debug Terraform environment
+        run: |
+          echo "AWS_REGION=$AWS_REGION"
+          echo "TF_VAR_aws_region=$TF_VAR_aws_region"
+          echo "TF_INPUT=$TF_INPUT"
+          echo "Using updated terraform workflow"
+
       - name: Terraform Init
-        run: terraform init -input=false
+        run: terraform init -input=false -lock-timeout=5m
 
       - name: Terraform Format Check
         run: terraform fmt -check
