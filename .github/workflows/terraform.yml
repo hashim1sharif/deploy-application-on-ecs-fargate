@@ -1,0 +1,63 @@
+name: Terraform
+
+on:
+  pull_request:
+    paths:
+      - "infra/**"
+      - ".github/workflows/terraform.yml"
+  push:
+    branches: ["main"]
+    paths:
+      - "infra/**"
+      - ".github/workflows/terraform.yml"
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Run terraform apply"
+        required: true
+        default: "false"
+
+permissions:
+  id-token: write
+  contents: read
+  pull-requests: write
+
+jobs:
+  terraform:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: infra
+
+    env:
+      AWS_REGION: eu-west-1
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+
+      - name: Terraform Init
+        run: terraform init
+
+      - name: Terraform Format Check
+        run: terraform fmt -check
+
+      - name: Terraform Validate
+        run: terraform validate
+
+      - name: Terraform Plan
+        run: terraform plan -out=tfplan
+
+      - name: Terraform Apply
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.apply == 'true'
+        run: terraform apply -auto-approve tfplan
