@@ -1,6 +1,6 @@
 resource "aws_secretsmanager_secret" "db_secret" {
   name = "${var.project_name}-${var.environment}-db-secret"
-
+  
   tags = {
     Name        = "${var.project_name}-${var.environment}-db-secret"
     Environment = var.environment

@@ -73,6 +73,7 @@ De applicatie bestaat uit meerdere onderdelen:
 ## API Response
 ![API](./docs/api-response.png)
 
+##
 
 
 #  Wat maakt dit project bijzonder?

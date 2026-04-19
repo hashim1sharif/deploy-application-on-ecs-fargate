@@ -1,5 +1,5 @@
 variable "project_name" {
-    type = string
+  type = string
 }
 
 variable "environment" {
@@ -7,37 +7,37 @@ variable "environment" {
 }
 
 variable "aws_region" {
-    type = string
+  type = string
 }
 
 variable "private_subnet_ids" {
-    type = list(string)
+  type = list(string)
 }
 
 variable "app_security_group_id" {
-    type = string
+  type = string
 }
 
 variable "target_group_arn" {
-    type = string
+  type = string
 }
 
 variable "container_port" {
-    type = number
+  type = number
 }
 
 variable "ecr_repository_url" {
-    type = string
+  type = string
 }
 
 variable "image_tag" {
-    type = string
+  type = string
 }
 
 variable "desired_count" {
-    type = number
+  type = number
 }
 
 variable "db_secret_arn" {
-    type = string
+  type = string
 }

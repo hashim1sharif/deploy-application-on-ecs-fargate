@@ -9,10 +9,11 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "ecs-state-file-lock"
-    key            = "infra/terraform.tfstate"
-    region         = "eu-west-1"
-    dynamodb_table = "terraform-ecs-locks"
-    encrypt        = true
+    bucket = "ecs-state-file-lock"
+    key    = "infra/terraform.tfstate"
+    region = "eu-west-1"
+    # dynamodb_table = "terraform-ecs-locks"
+    encrypt      = true
+    use_lockfile = true
   }
 }

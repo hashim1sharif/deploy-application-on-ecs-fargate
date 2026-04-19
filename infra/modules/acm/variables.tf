@@ -11,5 +11,5 @@ variable "domain_name" {
 }
 
 variable "subdomain_name" {
-    type = string
+  type = string
 }

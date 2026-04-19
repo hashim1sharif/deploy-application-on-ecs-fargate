@@ -26,6 +26,6 @@ variable "container_port" {
 }
 
 variable "certificate_arn" {
-    type = string
-    
+  type = string
+
 }
