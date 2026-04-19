@@ -31,7 +31,7 @@ Met dit project heb ik laten zien hoe je dit oplost met moderne cloud technieken
 
 # Architectuur Diagram
 
-![alt image](https://github.com/hashim1sharif/deploy-application-on-ecs-fargate/blob/58df890439c9cbfbe57215e0ce79dc3bea1347bf/screenshot%20%26%20architecture/2tier-architecture.gif)
+![alt image](https://github.com/hashim1sharif/deploy-application-on-ecs-fargate/blob/9e8e74d46228e2a07b61132591183dbc49255d77/screenshot%20%26%20architecture/2tier-architecture.gif)
 
 De applicatie bestaat uit meerdere onderdelen:
 
