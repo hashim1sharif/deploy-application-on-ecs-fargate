@@ -62,18 +62,22 @@ De applicatie bestaat uit meerdere onderdelen:
   # Screenshots
 
 ## ECS Service Running
-![ECS](./docs/ecs-running.png)
+![alt image](https://github.com/hashim1sharif/deploy-application-on-ecs-fargate/blob/2c85630bd9b53e24dd832e2d8279ee6063c87df8/screenshot%20%26%20architecture/esc.png)
 
 ## Load Balancer Health
-![ALB](./docs/alb-health.png)
+![alt image](https://github.com/hashim1sharif/deploy-application-on-ecs-fargate/blob/2c85630bd9b53e24dd832e2d8279ee6063c87df8/screenshot%20%26%20architecture/loadbalance.png)
 
 ## CloudWatch Logs
-![Logs](./docs/cloudwatch-logs.png)
+![alt image](https://github.com/hashim1sharif/deploy-application-on-ecs-fargate/blob/2c85630bd9b53e24dd832e2d8279ee6063c87df8/screenshot%20%26%20architecture/cloudwacht.png)
 
 ## API Response
-![API](./docs/api-response.png)
+![alt image](https://github.com/hashim1sharif/deploy-application-on-ecs-fargate/blob/2c85630bd9b53e24dd832e2d8279ee6063c87df8/screenshot%20%26%20architecture/api.png)
 
-##
+## web-page
+![alt image](https://github.com/hashim1sharif/deploy-application-on-ecs-fargate/blob/2c85630bd9b53e24dd832e2d8279ee6063c87df8/screenshot%20%26%20architecture/web.png)
+
+## health check
+![alt image](https://github.com/hashim1sharif/deploy-application-on-ecs-fargate/blob/2c85630bd9b53e24dd832e2d8279ee6063c87df8/screenshot%20%26%20architecture/Screenshot%202026-04-18%20234600.png)
 
 
 #  Wat maakt dit project bijzonder?
