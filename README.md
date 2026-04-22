@@ -126,3 +126,23 @@ Tijdens dit project heb ik meerdere realistische problemen opgelost:
 
 git clone <your-repo-url>
 cd your-project
+
+##  Projectstatus
+
+Dit project is momenteel **in ontwikkeling**.
+
+Er worden nog enkele functies en verbeteringen toegevoegd, zoals:
+
+* [Blue/Green Deployment (ZERO downtime) 1]
+* [Monitoring (CloudWatch metrics + alarms) 2]
+* 
+
+De huidige versie laat de basisfunctionaliteit en opzet van het project zien. Verdere updates volgen binnenkort.
+
+---
+
+##  Disclaimer
+
+Dit project is nog niet volledig afgerond en kan onvolledige onderdelen of kleine fouten bevatten. Het wordt gedeeld ter demonstratie als onderdeel van mijn portfolio.
+
+Feedback is altijd welkom!
