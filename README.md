@@ -133,9 +133,9 @@ Dit project is momenteel **in ontwikkeling**.
 
 Er worden nog enkele functies en verbeteringen toegevoegd, zoals:
 
-* [Blue/Green Deployment (ZERO downtime) 1]
-* [Monitoring (CloudWatch metrics + alarms) 2]
-* 
+* Blue/Green Deployment (ZERO downtime) 1
+* Monitoring (CloudWatch metrics + alarms) 2
+
 
 De huidige versie laat de basisfunctionaliteit en opzet van het project zien. Verdere updates volgen binnenkort.
 
