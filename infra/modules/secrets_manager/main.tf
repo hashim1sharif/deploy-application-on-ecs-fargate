@@ -7,6 +7,7 @@ resource "aws_secretsmanager_secret" "db_secret" {
   }
 }
 
+
 resource "aws_secretsmanager_secret_version" "db_secret_version" {
   secret_id = aws_secretsmanager_secret.db_secret.id
 

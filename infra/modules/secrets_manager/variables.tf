@@ -26,3 +26,4 @@ variable "db_host" {
 variable "db_port" {
   type = number
 }
+

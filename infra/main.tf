@@ -95,3 +95,5 @@ module "secrets_manager" {
   db_host      = module.rds.db_endpoint
   db_port      = module.rds.db_port
 }
+
+
