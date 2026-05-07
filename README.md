@@ -20,10 +20,10 @@ De applicatie draait volledig in de cloud en is bereikbaar via een eigen domein:
 Veel applicaties draaien nog lokaal of op simpele servers.  
 Dat zorgt vaak voor problemen zoals:
 
-   Niet schaalbaar ❌  
-   Handmatige deployments ❌  
-   Onveilige configuratie ❌  
-   Moeilijk onderhoud ❌  
+   Niet schaalbaar   
+   Handmatige deployments   
+   Onveilige configuratie  
+   Moeilijk onderhoud  
 
 Met dit project heb ik laten zien hoe je dit oplost met moderne cloud technieken.
 
@@ -84,13 +84,13 @@ De applicatie bestaat uit meerdere onderdelen:
 
 Dit is geen simpele demo maar een end-to-end cloud setup
 
-✅ Volledige infrastructuur met Terraform  
-✅ Containerized applicatie (Docker)  
-✅ Serverless containers (ECS Fargate)  
-✅ HTTPS + eigen domein  
-✅ Database + veilige configuratie  
-✅ CI/CD pipeline  
-✅ Logging & monitoring  
+    Volledige infrastructuur met Terraform  
+     Containerized applicatie (Docker)  
+     Serverless containers (ECS Fargate)  
+     HTTPS + eigen domein  
+     Database + veilige configuratie  
+     CI/CD pipeline  
+     Logging & monitoring  
 
 
 
@@ -99,9 +99,9 @@ Dit is geen simpele demo maar een end-to-end cloud setup
 
 Ik heb bewust gekozen voor ECS Fargate omdat
 
-   geen servers beheren nodig is ✅  
-   automatisch schaalbaar is ✅  
-   minder onderhoud vereist ✅  
+   geen servers beheren nodig is   
+   automatisch schaalbaar is  
+   minder onderhoud vereist   
 
    Hierdoor kan ik me focussen op de applicatie in plaats van infrastructuurbeheer
 
